@@ -27,8 +27,7 @@ Everything runs client-side, so no server is needed, and puzzles are freshly gen
 
 ### Demo
 
-Try it out live: [Live Demo](https://yourusername.github.io/sudoku-solver/)  
-*(Replace "yourusername" with your GitHub username if hosting on GitHub Pages. To enable: Go to Repository Settings > Pages > Select `main` branch > Save.)*
+Try it out live: [Live Demo](https://t-che.github.io/sudoku-generator-and-solver/) 
 
 ### Technologies Used
 
@@ -43,7 +42,7 @@ Try it out live: [Live Demo](https://yourusername.github.io/sudoku-solver/)
 #### Running Locally
 1. Clone or download this repository:
    ```bash
-   git clone https://github.com/yourusername/sudoku-solver.git
+   git clone https://github.com/t-che/sudoku-generator-and-solver.git
    ```
 2. Open `index.html` in a modern web browser (e.g., Chrome, Firefox, Edge).
 3. Start playing – no setup or dependencies required!
@@ -115,7 +114,7 @@ Happy puzzling! 🧩
 
 ### Демо
 
-Попробуйте вживую: [Живое Демо](https://yourusername.github.io/sudoku-solver/)  
+Попробуйте вживую: [Живое Демо](https://t-che.github.io/sudoku-generator-and-solver/)  
 *(Замените "yourusername" на ваше имя пользователя GitHub, если хостите на GitHub Pages. Для настройки: Репозиторий > Настройки > Pages > Выберите ветку `main` > Сохранить.)*
 
 ### Используемые Технологии
@@ -131,7 +130,7 @@ Happy puzzling! 🧩
 #### Локальный Запуск
 1. Клонируйте или скачайте репозиторий:
    ```bash
-   git clone https://github.com/yourusername/sudoku-solver.git
+   git clone https://github.com/t-che/sudoku-generator-and-solver.git
    ```
 2. Откройте `index.html` в современном браузере (например, Chrome, Firefox, Edge).
 3. Играйте – установка не требуется!
