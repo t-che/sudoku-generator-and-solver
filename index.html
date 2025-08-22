@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Судоку-генератор и решатель</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1><i class="fas fa-th"></i> Судоку</h1>
+        
+        <div class="controls">
+            <div class="main-controls">
+                <button id="generate" title="Новая игра"><i class="fas fa-plus"></i></button>
+                <button id="solve" title="Решить"><i class="fas fa-check"></i></button>
+                <button id="clear" title="Очистить"><i class="fas fa-trash"></i></button>
+                <button id="hint" title="Подсказка"><i class="fas fa-lightbulb"></i></button>
+                <button id="settings-toggle" title="Настройки"><i class="fas fa-cog"></i></button>
+            </div>
+            
+            <div class="settings-panel" id="settings-panel">
+                <div class="setting-group">
+                    <label for="difficulty">Сложность:</label>
+                    <select id="difficulty">
+                        <option value="easy">Легкий</option>
+                        <option value="medium">Средний</option>
+                        <option value="hard">Тяжелый</option>
+                    </select>
+                </div>
+                
+                <div class="setting-group">
+                    <label for="custom-mode">Режим:</label>
+                    <button id="custom-mode"><i class="fas fa-pencil-alt"></i> Своя игра</button>
+                </div>
+                
+                <div class="setting-group">
+                    <label>Тема:</label>
+                    <button id="theme-toggle"><i class="fas fa-moon"></i> Тёмная</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="sudoku-container">
+            <div id="sudoku-grid"></div>
+        </div>
+        
+        <div class="stats">
+            <div class="timer"><i class="fas fa-clock"></i> <span id="timer">00:00</span></div>
+            <div class="hints"><i class="fas fa-lightbulb"></i> <span id="hints-left">3</span></div>
+        </div>
+        
+        <p id="message"></p>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
